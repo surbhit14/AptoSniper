@@ -1,0 +1,24 @@
+{
+  "name": "tradingbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.19.0",
+    "@pontem/liquidswap-sdk": "^0.7.1",
+    "@wormhole-foundation/sdk": "^0.7.0",
+    "crypto": "^1.0.1",
+    "ethereumjs-util": "^7.1.5",
+    "ethereumjs-wallet": "^1.0.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "pnpm": "^9.3.0",
+    "web3": "^4.9.0"
+  }
+}
